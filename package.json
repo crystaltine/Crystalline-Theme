@@ -1,0 +1,26 @@
+{
+  "name": "crystalline-theme",
+  "displayName": "Crystalline Theme",
+  "description": "Purple/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
+  "version": "1.6.2",
+  "publisher": "nonagon",
+  "icon": "images/icon2.png",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "repository": {
+    "url": "https://github.com/hogridr/Crystalline-Theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crystalline Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline Theme-color-theme.json"
+      }
+    ]
+  }
+}
