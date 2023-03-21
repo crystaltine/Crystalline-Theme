@@ -2,9 +2,9 @@
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
   "description": "Purple/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
-  "version": "1.6.2",
+  "version": "1.8",
   "publisher": "nonagon",
-  "icon": "images/icon2.png",
+  "icon": "themes/icon.png",
   "engines": {
     "vscode": "^1.68.0"
   },
