@@ -1,8 +1,8 @@
 {
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
-  "description": "Blue-Purple/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
-  "version": "1.9.1",
+  "description": "Blue/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
+  "version": "3.0.0",
   "publisher": "nonagon",
   "icon": "themes/icon.png",
   "engines": {
@@ -17,9 +17,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Crystalline Theme",
+        "label": "Crystalline Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Theme-color-theme.json"
+      },
+      {
+        "label": "Crystalline Dark Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline Dimmed-color-theme.json"
+      },
+      {
+        "label": "Crystalline Dark Desaturated",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline Desaturated-color-theme.json"
       }
     ]
   }
