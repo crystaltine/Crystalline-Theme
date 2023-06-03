@@ -3,7 +3,7 @@
 
 # **3.1**
 
-3.1.1 (Jun 2, 2023) - Minor container color tweaks, and upscaled changelog version headers.
+3.1.1 (Jun 2, 2023) - Minor container color tweaks, upscaled changelog version headers, and set desaturated theme to main.
 
 3.1.0 (Jun. 2, 2023) - Brightened background color for desaturated theme, and added more color diversity - Strings >>> lime green, functions >>> red, stroage (`def`, `class`, `function`, etc.) >>> orange, namespaces >>> light aqua, Constants/Numbers >>> yellow, types >>> light yellow, JSON value strings >>> bright orange, and others that I probably forgot. Also fixed new changelog format.
 

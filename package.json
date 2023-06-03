@@ -17,6 +17,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Crystalline Dark Desaturated",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline Desaturated-color-theme.json"
+      },
+      {
         "label": "Crystalline Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Theme-color-theme.json"
@@ -25,11 +30,6 @@
         "label": "Crystalline Dark Dimmed",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Dimmed-color-theme.json"
-      },
-      {
-        "label": "Crystalline Dark Desaturated",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Crystalline Desaturated-color-theme.json"
       }
     ]
   },
