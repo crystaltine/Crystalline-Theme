@@ -1885,16 +1885,16 @@
 		"sideBar.border": "#00000000",
 		"list.inactiveSelectionBackground": "#0403061a",
 		"list.inactiveSelectionForeground": "#c2f4ff",
-		"list.hoverBackground": "#27233689",
+		"list.hoverBackground": "#2b303989",
 		"list.hoverForeground": "#f8f3ff",
 		"list.activeSelectionBackground": "#0d0d177c",
 		"list.activeSelectionForeground": "#f4fcff",
 		"tree.indentGuidesStroke": "#74767932",
-		"list.dropBackground": "#68638a18",
+		"list.dropBackground": "#2b303989",
 		"list.highlightForeground": "#6e99ff",
 		"list.focusBackground": "#6fc3df38",
 		"list.focusForeground": "#ffffff",
-		"listFilterWidget.background": "#2e3339", // LIST CTRL-F BG
+		"listFilterWidget.background": "#2f3338", // LIST CTRL-F BG
 		"listFilterWidget.outline": "#00000000",
 		"listFilterWidget.noMatchesOutline": "#a9004f",
 		"statusBar.foreground": "#b6b6b6",
@@ -2035,7 +2035,7 @@
 		"debugToolBar.background": "#080810", 
 		"debugToolBar.border": "#00000000",
 		"notifications.foreground": "#fffaf4",
-		"notifications.background": "#2a2d31",
+		"notifications.background": "#141618",
 		"notificationToast.border": "#00000000",
 		"notificationsErrorIcon.foreground": "#ff2e04",
 		"notificationsWarningIcon.foreground": "#ffd205",
@@ -2089,7 +2089,7 @@
 		"checkbox.background": "#1e2026",
 		"checkbox.foreground": "#d9ddde",
 		"checkbox.border": "#00000000",
-		"dropdown.background": "#201c28",
+		"dropdown.background": "#202227",
 		"dropdown.foreground": "#d9ddde",
 		"dropdown.border": "#00000000",
 		"minimapGutter.addedBackground": "#208d4385",
@@ -2109,7 +2109,7 @@
 		"walkThrough.embeddedEditorBackground": "#00000050",
 		"breadcrumb.activeSelectionForeground": "#fff9ec",
 		"editorGutter.commentRangeForeground": "#e8e8e88d",
-		"debugExceptionWidget.background": "#030306",
+		"debugExceptionWidget.background": "#101214",
 		"debugExceptionWidget.border": "#00000000"
 	}
   }
