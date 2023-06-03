@@ -109,7 +109,7 @@
 		"name": "punctuation.definition",
 		"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 		"settings": {
-		  "foreground": "#48d2bb"
+		  "foreground": "#58de6e"
 		}
 	  },
 	  {
@@ -336,7 +336,7 @@
 		"name": "variable readwrite",
 		"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
 		"settings": {
-		  "foreground": "#a7b0bb"
+		  "foreground": "#bbc4cf"
 		}
 	  },
 	  {
@@ -496,7 +496,7 @@
 		"name": "python function-call.generic",
 		"scope": "meta.function-call.generic.python",
 		"settings": {
-		  "foreground": "#7cb2f4"
+		  "foreground": "#db8683"
 		}
 	  },
 	  {
@@ -538,14 +538,14 @@
 		"name": "Namespaces",
 		"scope": "entity.name.namespace",
 		"settings": {
-		  "foreground": "#c3ab6c"
+		  "foreground": "#5bc2c5"
 		}
 	  },
 	  {
 		"name": "Variables",
 		"scope": "variable",
 		"settings": {
-		  "foreground": "#96b8e8"
+		  "foreground": "#9bbee8"
 		}
 	  },
 	  {
@@ -599,7 +599,7 @@
 		  "variable.function"
 		],
 		"settings": {
-		  "foreground": "#d0963f"
+		  "foreground": "#e17d79"
 		}
 	  },
 	  {
@@ -635,7 +635,14 @@
 		"name": "Classes",
 		"scope": "support.class, entity.name.type.class",
 		"settings": {
-		  "foreground": "#e4e483"
+		  "foreground": "#eeeb93"
+		}
+	  },
+	  {
+		"name": "JSON Strings",
+		"scope": "string.quoted.double.json",
+		"settings": {
+		  "foreground": "#d6bc74"
 		}
 	  },
 	  {
@@ -674,7 +681,7 @@
 		"name": "Keyword Control",
 		"scope": "keyword.control",
 		"settings": {
-		  "foreground": "#d17cde"
+		  "foreground": "#d184de"
 		}
 	  },
 	  {
@@ -695,7 +702,7 @@
 		"name": "Storage",
 		"scope": "storage",
 		"settings": {
-		  "foreground": "#cc7c76"
+		  "foreground": "#f4ba62"
 		}
 	  },
 	  {
@@ -758,7 +765,7 @@
 		"name": "Strings",
 		"scope": "string",
 		"settings": {
-		  "foreground": "#75acdd"
+		  "foreground": "#7bd673"
 		}
 	  },
 	  {
@@ -779,7 +786,7 @@
 		"name": "Numbers",
 		"scope": "constant.numeric",
 		"settings": {
-		  "foreground": "#7ec979"
+		  "foreground": "#e9e976"
 		}
 	  },
 	  {
@@ -887,7 +894,7 @@
 		"name": "JSON keywords",
 		"scope": "support.type.property-name.json",
 		"settings": {
-		  "foreground": "#f37e78"
+		  "foreground": "#d37671"
 		}
 	  },
 	  {
