@@ -1,5 +1,5 @@
 # Crystalline Color Theme for VS Code
-Version: 3.1.1 - Jun. 2, 2023
+Version: 3.1.2 - Jun. 3, 2023
 
 Gray-Blue/Slate style containers, Spectrum-colorful syntax highlighting.
 

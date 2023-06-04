@@ -2,6 +2,7 @@
 
 
 # **3.1**
+3.1.2 (Jun 3, 2023) - For desaturated: Terminal background slightly more saturated, activity bar badges >>> Red, some sidebar selection color tweaks (Easier to see) and tweaked some less common token colors.
 
 3.1.1 (Jun 2, 2023) - Minor container color tweaks, upscaled changelog version headers, and set desaturated theme to main.
 

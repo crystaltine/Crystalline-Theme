@@ -2,7 +2,7 @@
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
   "description": "Blue/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "publisher": "nonagon",
   "icon": "themes/icon.png",
   "engines": {

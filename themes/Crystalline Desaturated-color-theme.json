@@ -53,7 +53,7 @@
 		"name": "variable.parameter.function.language.special.self.python",
 		"scope": "variable.parameter.function.language.special.self.python",
 		"settings": {
-		  "foreground": "#00b6c3"
+		  "foreground": "#b76fc8"
 		}
 	  },
 	  {
@@ -538,14 +538,14 @@
 		"name": "Namespaces",
 		"scope": "entity.name.namespace",
 		"settings": {
-		  "foreground": "#5bc2c5"
+		  "foreground": "#23c5c2"
 		}
 	  },
 	  {
 		"name": "Variables",
 		"scope": "variable",
 		"settings": {
-		  "foreground": "#9bbee8"
+		  "foreground": "#79caff"
 		}
 	  },
 	  {
@@ -681,7 +681,7 @@
 		"name": "Keyword Control",
 		"scope": "keyword.control",
 		"settings": {
-		  "foreground": "#d184de"
+		  "foreground": "#c687d3"
 		}
 	  },
 	  {
@@ -695,21 +695,21 @@
 		"name": "Methods",
 		"scope": "keyword.other.special-method",
 		"settings": {
-		  "foreground": "#87b3ff"
+		  "foreground": "#e17d79"
 		}
 	  },
 	  {
 		"name": "Storage",
 		"scope": "storage",
 		"settings": {
-		  "foreground": "#f4ba62"
+		  "foreground": "#e7aa4e"
 		}
 	  },
 	  {
 		"name": "Storage JS TS",
 		"scope": "token.storage",
 		"settings": {
-		  "foreground": "#cc6bd9"
+		  "foreground": "#C687D3"
 		}
 	  },
 	  {
@@ -730,7 +730,7 @@
 		"name": "Support",
 		"scope": "support.function",
 		"settings": {
-		  "foreground": "#be76aa"
+		  "foreground": "#e17d79"
 		}
 	  },
 	  {
@@ -793,7 +793,7 @@
 		"name": "Constants",
 		"scope": "constant",
 		"settings": {
-		  "foreground": "#43c0b8"
+		  "foreground": "#49aeb0"
 		}
 	  },
 	  {
@@ -1225,7 +1225,7 @@
 		"name": "python function decorator @",
 		"scope": "meta.function.decorator.python",
 		"settings": {
-		  "foreground": "#f476ff"
+		  "foreground": "#f7f890"
 		}
 	  },
 	  {
@@ -1857,13 +1857,13 @@
 	],
 	"colors": {
 		// IMPORTANT	
-		"editor.background": "#202228", // EDITOR BG
-		"editorGutter.background": "#202228", // GUTTER BG
+		"editor.background": "#21242a", // EDITOR BG
+		"editorGutter.background": "#21242a", // GUTTER BG
 		"editor.foreground": "#dbe7fa",
 		"sideBar.background": "#1d1f25", // SIDEBAR BACKGROUND
-		"activityBar.background": "#181a20", // ACTIVITY BAR BACKGROUND
+		"activityBar.background": "#181a1f", // ACTIVITY BAR BACKGROUND
 		"activityBar.inactiveForeground": "#9ca8aca4",
-		"panel.background": "#1a1c21", // TERMINAL BG
+		"panel.background": "#1a1c22", // TERMINAL BG
 		"terminal.selectionBackground": "#37417957",
 		"terminalCursor.background": "#5462b164",
 		"terminalCursor.foreground": "#ffffff",
@@ -1874,20 +1874,20 @@
 		"scrollbar.shadow": "#00000000",
 		"activityBar.foreground": "#ffffffd7",
 		"activityBarBadge.foreground": "#ffffff",
-		"activityBarBadge.background": "#7eb833d9",
+		"activityBarBadge.background": "#ff4e18d9",
 		"activityBar.border": "#ffffff00",
 		"activityBar.activeBackground": "#cb86ea2a",
 		"sideBar.foreground": "#dfe4e6af",
-		"sideBarSectionHeader.background": "#00000000",
+		"sideBarSectionHeader.background": "#191a1e",
 		"sideBarSectionHeader.foreground": "#b6cfe6",
 		"sideBarSectionHeader.border": "#cccccc00",
 		"sideBarTitle.foreground": "#ffffff",
 		"sideBar.border": "#00000000",
-		"list.inactiveSelectionBackground": "#0403061a",
+		"list.inactiveSelectionBackground": "#282b32",
 		"list.inactiveSelectionForeground": "#c2f4ff",
-		"list.hoverBackground": "#2b303989",
+		"list.hoverBackground": "#292e3567",
 		"list.hoverForeground": "#f8f3ff",
-		"list.activeSelectionBackground": "#0d0d177c",
+		"list.activeSelectionBackground": "#3c404b7c",
 		"list.activeSelectionForeground": "#f4fcff",
 		"tree.indentGuidesStroke": "#74767932",
 		"list.dropBackground": "#2b303989",
@@ -1938,12 +1938,12 @@
 		"editorLineNumber.foreground": "#ffffff44",
 		"editorCursor.foreground": "#c0c4c4c1",
 		"editorCursor.background": "#001819",
-		"editor.selectionBackground": "#4c4e606a",
-		"editor.inactiveSelectionBackground": "#3d3e4c5d",
+		"editor.selectionBackground": "#5c5d6d6a", // SELECTION BG
+		"editor.inactiveSelectionBackground": "#4849575d",
 		"editorWhitespace.foreground": "#ffffff00",
 		"editor.selectionHighlightBackground": "#92afcd24",
 		"editor.selectionHighlightBorder": "#495F77",
-		"editor.findMatchBackground": "#62518d54",
+		"editor.findMatchBackground": "#68839c54",
 		"editor.findMatchBorder": "#b39ccb00",
 		"editor.findMatchHighlightBackground": "#6d698548",
 		"editor.findMatchHighlightBorder": "#ffffff00",
