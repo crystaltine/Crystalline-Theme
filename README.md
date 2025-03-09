@@ -1,7 +1,7 @@
 # Crystalline Color Theme for VS Code
-Version: 3.1.2 - Jun. 3, 2023
+Version: 4.0.0 - Mar. 9, 2025
 
-Gray-Blue/Slate style containers, Spectrum-colorful syntax highlighting.
+Colorful pastel color theme inspired by One Dark Darker!
 
-(OUTDATED!) I don't use the below editor anymore! You can see an old version through the below link, though.
-themes.vscode.one Editor link: https://themes.vscode.one/theme/nonagon/8HPqpfLj
+#### Preview
+![Crystalline Theme v4 Preview](./preview.jpg)

@@ -1,15 +1,15 @@
 {
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
-  "description": "Blue/Slate-themed containers, Spectrum-colorful semantic syntax highlighting",
-  "version": "3.1.2",
-  "publisher": "nonagon",
+  "description": "Pastel/Full-spectrum color theme inspired by Atom One Dark",
+  "version": "4.0.0",
+  "publisher": "crystaltine",
   "icon": "themes/icon.png",
   "engines": {
     "vscode": "^1.68.0"
   },
   "repository": {
-    "url": "https://github.com/hogridr/Crystalline-Theme"
+    "url": "https://github.com/crystaltine/Crystalline-Theme"
   },
   "categories": [
     "Themes"
@@ -17,23 +17,25 @@
   "contributes": {
     "themes": [
       {
-        "label": "Crystalline Dark Desaturated",
+        "label": "(v4) Crystalline v4",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline_v4.json"
+      },
+      {
+        "label": "(v3-old) Crystalline Dark Desaturated",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Desaturated-color-theme.json"
       },
       {
-        "label": "Crystalline Dark",
+        "label": "(v2-old) Crystalline Dark High Contrast",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Theme-color-theme.json"
       },
       {
-        "label": "Crystalline Dark Dimmed",
+        "label": "(v1-old) Crystalline Dark Dimmed",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline Dimmed-color-theme.json"
       }
     ]
-  },
-  "scripts": {
-    "test": "echo \"hi\""
   }
 }

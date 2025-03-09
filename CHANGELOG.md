@@ -1,10 +1,17 @@
 # __**Changelog**__
 
+# **4.0**
+4.0.0 (Mar. 9, 2025) - Uhh remade the whole thing based on "One Dark Darker" lol.
+
+# **3.2**
+3.2.1 (Aug. 5, 2023) - Changed token `string.quoted.single.tsx` from the default lime string color to a yellower color, since most of the time these strings will be used alongside jsx tags, which are pink and have red attributes - gold fits better in that context. This comes at the cost of every string inside of .tsx and .jsx files being this bright yellow color.
+
+3.2.0 (Aug. 5, 2023) - Some theme name tweaks and description changes. Colors-wise: HTML and JSON files now utilize a magenta color for tags and property names. Overall highlighting gradient shifted from red-yellow-green to pink-red-yellow. Swapped around a lot of CSS colors to match this and also include more of the spectrum in general. Besides that, increased saturation for a few tokens in all languages. 
 
 # **3.1**
-3.1.2 (Jun 3, 2023) - For desaturated: Terminal background slightly more saturated, activity bar badges >>> Red, some sidebar selection color tweaks (Easier to see) and tweaked some less common token colors.
+3.1.2 (Jun. 3, 2023) - For desaturated: Terminal background slightly more saturated, activity bar badges >>> Red, some sidebar selection color tweaks (Easier to see) and tweaked some less common token colors.
 
-3.1.1 (Jun 2, 2023) - Minor container color tweaks, upscaled changelog version headers, and set desaturated theme to main.
+3.1.1 (Jun. 2, 2023) - Minor container color tweaks, upscaled changelog version headers, and set desaturated theme to main.
 
 3.1.0 (Jun. 2, 2023) - Brightened background color for desaturated theme, and added more color diversity - Strings >>> lime green, functions >>> red, stroage (`def`, `class`, `function`, etc.) >>> orange, namespaces >>> light aqua, Constants/Numbers >>> yellow, types >>> light yellow, JSON value strings >>> bright orange, and others that I probably forgot. Also fixed new changelog format.
 
