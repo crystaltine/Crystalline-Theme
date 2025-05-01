@@ -1,5 +1,8 @@
 # __**Changelog**__
 
+# **4.1**
+4.1.0 (May 1, 2025) - idk made parameters light blue or something
+
 # **4.0**
 4.0.0 (Mar. 9, 2025) - Uhh remade the whole thing based on "One Dark Darker" lol.
 

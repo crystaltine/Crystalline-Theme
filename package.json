@@ -2,7 +2,7 @@
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
   "description": "Pastel/Full-spectrum color theme inspired by Atom One Dark",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "publisher": "crystaltine",
   "icon": "themes/icon.png",
   "engines": {
