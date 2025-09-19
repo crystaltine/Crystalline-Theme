@@ -17,6 +17,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "(v5) Crystalline v5",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crystalline_v5.json"
+      },
+      {
         "label": "(v4) Crystalline v4",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline_v4.json"
