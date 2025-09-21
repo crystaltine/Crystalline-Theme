@@ -3,7 +3,7 @@
   "displayName": "Crystalline Theme",
   "description": "personal vscode color themes i edit too often that aim for a good balance between contrast and vibrancy!",
   "version": "5.0.0",
-  "publisher": "crystaltine",
+  "publisher": "nonagon",
   "icon": "themes/icon.png",
   "engines": {
     "vscode": "^1.68.0"
