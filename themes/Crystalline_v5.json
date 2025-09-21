@@ -145,6 +145,8 @@
 		"variable.constant": "#E2BB84",
 		"variable.builtin": "#0AC2BC",
 		"variable.defaultLibrary": "#0AC2BC",
+		"selfParameter": "#FFF3B5",
+		"thisParameter": "#FFF3B5",
 		"parameter": "#69E5E3",
 		"property": "#69E5E3",
 		"variable.callable": "#D479FF",
