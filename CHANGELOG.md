@@ -1,5 +1,8 @@
 # __**Changelog**__
 
+# **5.0**
+5.0.0 (Sep 20, 2025) - Switched around colors for various overarching token types (e.g. keywords magenta -> red, strings green -> pink). Overall lighter, more magenta-y palette, shift greens/blues slightly away, more consideration of how colors work together and how tokens tend to group in code.
+
 # **4.1**
 4.1.0 (May 1, 2025) - idk made parameters light blue or something
 

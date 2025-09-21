@@ -25,11 +25,11 @@
 		"editor.findMatchBackground": "#99B6",
 		"editor.findMatchBorder": "#457dff30",
 		"editor.findMatchHighlightBackground": "#99B6",
-		"editor.lineHighlightBackground": "#4456",
-		"editor.selectionBackground": "#4459",
+		"editor.lineHighlightBackground": "#4446",
+		"editor.selectionBackground": "#4449",
 		"editor.selectionHighlightBackground": "#ffffff10",
 		"editor.selectionHighlightBorder": "#dddddd30",
-		"editor.wordHighlightBackground": "#4456",
+		"editor.wordHighlightBackground": "#4446",
 		"editor.wordHighlightBorder": "#FFF2",
 		"editor.wordHighlightStrongBackground": "#abb2bf26",
 		"editor.wordHighlightStrongBorder": "#7f848e30",
@@ -75,14 +75,14 @@
 
 		"focusBorder": "#0000",
 		"input.background": "#151516",
-		"list.activeSelectionBackground": "#40404560",
+		"list.activeSelectionBackground": "#4446",
+		"list.inactiveSelectionBackground": "#4445",
 		"list.activeSelectionForeground": "#d7dae0",
-		"list.focusBackground": "#383e4a",
-		"list.highlightForeground": "#c5c5c5",
-		"list.hoverBackground": "#40404540",
-		"listStickyScroll.background": "#0000",
-		"list.inactiveSelectionBackground": "#40404560",
 		"list.inactiveSelectionForeground": "#d7dae0",
+		"list.focusBackground": "#4446",
+		"list.highlightForeground": "#c5c5c5",
+		"list.hoverBackground": "#4442",
+		"listStickyScroll.background": "#0000",
 		"list.warningForeground": "#d19a66",
 		"menu.foreground": "#c8c8c8",
 		"menu.selectionBackground":  "#40404560",
@@ -387,9 +387,13 @@
 		
 		
 		{
-			"name": "CSS Element selectors",
+			"name": "CSS Element selectors & builtins",
 			"scope": [
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"entity.name.tag.custom.css",
+				"support.constant.media.css",
+				"support.constant.media.at-rule.css",
+				"support.type.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#FFF3B5"
@@ -432,6 +436,7 @@
 				"support.type.property-name.css",
 				"support.type.property-name.scss",
 				"support.type.property-name.less",
+				"support.type.property-name.media",
 				"meta.property-name.css",
 				"meta.property-name.scss",
 				"meta.property-name.less"
