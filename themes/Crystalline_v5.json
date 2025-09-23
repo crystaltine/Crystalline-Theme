@@ -139,22 +139,21 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"keyword": "#E31F95",
-		"operator": "#E2BB84",
+		"operator": "#E31F95",
 		"variable": "#E2BB84",
 		"variable.global": "#E2BB84",
 		"variable.readonly": "#E2BB84",
 		"variable.constant": "#E2BB84",
-		"variable.builtin": "#0AD1C3",
-		"variable.defaultLibrary": "#0AD1C3",
+		"variable.builtin": "#03C8BB",
+		"variable.defaultLibrary": "#03C8BB",
 		"selfParameter": "#FFF3B5",
 		"thisParameter": "#FFF3B5",
 		"parameter": "#9DDDFF",
-		"variable.callable": "#D479FF",
 		"function": "#D479FF",
 		"enumMember": "#E2BB84",
 		"macro": "#D479FF",
-		"namespace": "#0AD1C3",
-		"module": "#0AD1C3"
+		"namespace": "#03C8BB",
+		"module": "#03C8BB"
 	},
 	"tokenColors": [
 		{
@@ -209,7 +208,6 @@
 		{
 			"name": "Properties & Members",
 			"scope": [
-				"meta.attribute",
 				"meta.object.member",
 				"meta.property.object",
 				"variable.other.rust",
@@ -224,8 +222,7 @@
 			"scope": [
 				"entity.name.function.member",
 				"entity.name.function.call",
-				"entity.name.function",
-				"meta.function-call"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#D479FF"
@@ -262,7 +259,7 @@
 				"entity.name.scope-resolution.function.definition"
 			],
 			"settings": {
-				"foreground": "#0AD1C3"
+				"foreground": "#03C8BB"
 			}
 		},
 		{
@@ -312,28 +309,29 @@
 				"storage.modifier.pointer",
 				"storage.modifier.reference",
 				"keyword.operator.ternary",
+				"keyword.operator.logical",
 				"keyword.operator.increment",
 				"keyword.operator.comparison",
-				"keyword.operator.logical",
 				"keyword.operator.optional",
 				"keyword.operator.arithmetic",
 				"keyword.operator.bitwise",
 				"keyword.operator.type.annotation",
-				"storage.type.function.arrow"
+				"punctuation.separator.slice.python"
 			],
 			"settings": {
-				"foreground": "#E2BB84"
+				"foreground": "#E31F95"
 			}
 		},
 		{
 			"name": "control operators / storage operators / other operators / other punctuation",
 			"scope": [
 				"punctuation.separator.annotation.result",
-				"keyword.operator.assignment",
 				"keyword.operator.address",
 				"keyword.operator.control",
 				"keyword.operator.cast",
-				"keyword.operator.misc"
+				"keyword.operator.misc",
+				"keyword.operator.assignment",
+				"storage.type.function.arrow"
 			],
 			"settings": {
 				"foreground": "#D479FF"
@@ -348,7 +346,7 @@
 				"entity.name.module.rust"
 			],
 			"settings": {
-				"foreground": "#0AD1C3"
+				"foreground": "#03C8BB"
 			}
 		},
 		
