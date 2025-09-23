@@ -2,15 +2,15 @@
 	"name": "Crystaltine's Crystalline 5.0",
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#1D1D1E",
+		"activityBar.background": "#1D1D1F",
 		"activityBar.foreground": "#d7dae0",
 		"activityBarBadge.background": "#85F",
 		"activityBarBadge.foreground": "#f8fafd",
 		"activityBar.border": "#FFF1",
-		"badge.background": "#1D1D1E",
+		"badge.background": "#1D1D1F",
 		"button.background": "#85F",
 		"button.hoverBackground": "#96F",
-		"debugToolBar.background": "#1D1D1E",
+		"debugToolBar.background": "#1D1D1F",
 		"diffEditor.insertedTextBackground": "#00809b33",
 		"dropdown.background": "#19191A",
 		"dropdown.border": "#FFF1",
@@ -19,7 +19,7 @@
 		"editorStickyScroll.shadow": "#0000",
 		"editorStickyScroll.border": "#FFF1",
 
-		"editor.background": "#1D1D1E",
+		"editor.background": "#1D1D1F",
 
 		"editor.foreground": "#A0A0B0",
 		"editor.findMatchBackground": "#99B6",
@@ -39,7 +39,7 @@
 		"editorCursor.background": "#ffffffc9",
 		"editorCursor.foreground": "#cdcbf1",
 		"editorError.foreground": "#c24038",
-		"editorGroup.emptyBackground": "#1D1D1E",
+		"editorGroup.emptyBackground": "#1D1D1F",
 		"editorGroup.border": "#FFF1",
 		"editorGroupHeader.tabsBackground": "#19191A",
 		"editorGroupHeader.tabsBorder": "#FFF1",
@@ -52,7 +52,7 @@
 		"editorLineNumber.activeForeground": "#EEFA",
 		"editorLineNumber.foreground": "#EEF3",
 		
-		"editorMarkerNavigation.background": "#1D1D1E",
+		"editorMarkerNavigation.background": "#1D1D1F",
 		"editorRuler.foreground": "#abb2bf26",
 		"editorSuggestWidget.background": "#19191A",
 		"editorSuggestWidget.border": "#FFF1",
@@ -65,10 +65,10 @@
 		"sideBar.foreground": "#8A8A93",
 		"sideBar.background": "#19191A",
 		"sideBar.border": "#FFF1",
-		"sideBarStickyScroll.background": "#1D1D1E",
+		"sideBarStickyScroll.background": "#1D1D1F",
 		"sideBarStickyScroll.shadow": "#0000",
 		"sideBarStickyScroll.border": "#FFF1",
-		"sideBarSectionHeader.background": "#1D1D1E",
+		"sideBarSectionHeader.background": "#1D1D1F",
 		"sideBarSectionHeader.foreground": "#A0A0B0",
 		"sideBarSectionHeader.border": "#FFF1",
 		"sideBarSectionHeader.shadow": "#0000",
@@ -86,7 +86,7 @@
 		"list.warningForeground": "#d19a66",
 		"menu.foreground": "#c8c8c8",
 		"menu.selectionBackground":  "#40404560",
-		"peekViewEditor.background": "#1D1D1E",
+		"peekViewEditor.background": "#1D1D1F",
 		"peekViewEditor.matchHighlightBackground": "#29244b",
 		"peekViewResult.background": "#22262b",
 		"scrollbarSlider.background": "#A0A0B040",
@@ -98,7 +98,7 @@
 		"statusBar.debuggingBackground": "#E31F95",
 		"statusBar.debuggingForeground": "#ffffff",
 		"statusBar.debuggingBorder": "#FFF1",
-		"statusBar.noFolderBackground": "#1D1D1E",
+		"statusBar.noFolderBackground": "#1D1D1F",
 		"statusBarItem.hoverBackground": "#40404560",
 		"statusBarItem.remoteBackground": "#43435d",
 		"statusBarItem.remoteForeground": "#f8fafd",
@@ -125,14 +125,14 @@
 		"terminal.ansiRed": "#e05561",
 		"terminal.ansiWhite": "#e6e6e6",
 		"terminal.ansiYellow": "#fce56e",
-		"terminal.background": "#1D1D1E",
+		"terminal.background": "#1D1D1F",
 		"terminal.border": "#abb2bf",
 		"terminal.foreground": "#abb2bf",
 		"terminal.selectionBackground": "#abb2bf30",
 		"textLink.foreground": "#61afef",
-		"titleBar.activeBackground": "#1D1D1E",
+		"titleBar.activeBackground": "#1D1D1F",
 		"titleBar.activeForeground": "#A0A0B0",
-		"titleBar.inactiveBackground": "#1D1D1E",
+		"titleBar.inactiveBackground": "#1D1D1F",
 		"titleBar.inactiveForeground": "#6b717d",
 		"titleBar.border": "#FFF1"
 	},
@@ -182,7 +182,10 @@
 				"keyword.operator.expression.await",
 				"keyword.operator.expression.throw",
 				"keyword.operator.new",
-				"keyword.operator.delete"
+				"keyword.operator.delete",
+				"constant.character.math.tex",
+				"constant.other.general.math.tex",
+				"punctuation.definition.constant.math.tex"
 			],
 			"settings": {
 				"foreground": "#E31F95"
@@ -222,7 +225,11 @@
 			"scope": [
 				"entity.name.function.member",
 				"entity.name.function.call",
-				"entity.name.function"
+				"entity.name.function",
+				"support.function.be.latex",
+				"support.function.general.tex",
+				"support.function.textit.latex",
+				"meta.function.textbf.latex"
 			],
 			"settings": {
 				"foreground": "#D479FF"
@@ -231,7 +238,9 @@
 		{
 			"name": "parameters",
 			"scope": [
-				"variable.parameter.function-call"
+				"variable.parameter.function-call",
+				"variable.parameter.function.latex",
+				"variable.parameter.function.tex"
 			],
 			"settings": {
 				"foreground": "#9DDDFF"
@@ -845,15 +854,6 @@
 			}
 		},
 		{
-			"name": "JS/TS Variables",
-			"scope": [
-				"variable.js,variable.ts"
-			],
-			"settings": {
-				"foreground": "#FFF3B5"
-			}
-		},
-		{
 			"name": "js template literals variable braces end",
 			"scope": [
 				"keyword.other.substitution.end"
@@ -1189,13 +1189,6 @@
 			}
 		},
 		{
-			"name": "markup Italic",
-			"scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
-			"settings": {
-				"foreground": "#9DDDFF"
-			}
-		},
-		{
 			"name": "Bold",
 			"scope": "punctuation.definition.bold",
 			"settings": {
@@ -1207,7 +1200,15 @@
 			"scope": "markup.bold,todo.bold",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#D479FF"
+				"foreground": "#9DDDFF"
+			}
+		},
+		{
+			"name": "markup Italic",
+			"scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
+			"settings": {
+				"foreground": "#9DDDFF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1475,20 +1476,6 @@
 			"scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
 			"settings": {
 				"foreground": "#D479FF"
-			}
-		},
-		{
-			"name": "markup.italic.markdown",
-			"scope": "markup.italic.markdown",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "markup.bold.markdown",
-			"scope": "markup.bold.markdown",
-			"settings": {
-				"fontStyle": "bold"
 			}
 		}
 	]
