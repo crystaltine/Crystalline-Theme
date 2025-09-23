@@ -185,7 +185,8 @@
 				"keyword.operator.delete",
 				"constant.character.math.tex",
 				"constant.other.general.math.tex",
-				"punctuation.definition.constant.math.tex"
+				"punctuation.definition.constant.math.tex",
+				"variable.other.django.filter"
 			],
 			"settings": {
 				"foreground": "#E31F95"
@@ -236,14 +237,25 @@
 			}
 		},
 		{
-			"name": "parameters",
+			"name": "parameters and attributes",
 			"scope": [
+				"meta.indexed-name.python",
 				"variable.parameter.function-call",
 				"variable.parameter.function.latex",
-				"variable.parameter.function.tex"
+				"variable.parameter.function.tex",
+				"variable.other.django.attribute"
 			],
 			"settings": {
 				"foreground": "#9DDDFF"
+			}
+		},
+		{
+			"name": "other vars / variables",
+			"scope": [
+				"variable.other.django"
+			],
+			"settings": {
+				"foreground": "#E2BB84"
 			}
 		},
 		{
@@ -495,7 +507,25 @@
 			}
 		},
 
-		
+
+		{
+			"name": "Django punctuation / delimiter tags",
+			"scope": [
+				"entity.other.django.delimiter.tag"
+			],
+			"settings": {
+				"foreground": "#FFF3B5"
+			}
+		},
+		{
+			"name": "Django control keywords",
+			"scope": [
+				"keyword.control.django"
+			],
+			"settings": {
+				"foreground": "#D479FF"
+			}
+		},
 
 		
 
