@@ -271,18 +271,8 @@
 				"foreground": "#FFF3B5"
 			}
 		},
-		{
-			"name": "C++/C# Scope resolutions",
-			"scope": [
-				"entity.name.label.cs",
-				"entity.name.scope-resolution",
-				"entity.name.scope-resolution.function.call",
-				"entity.name.scope-resolution.function.definition"
-			],
-			"settings": {
-				"foreground": "#03C8BB"
-			}
-		},
+
+
 		{
 			"name": "Strings",
 			"scope": [
@@ -371,6 +361,32 @@
 			}
 		},
 		
+
+		{
+			"name": "C++/C# Scope resolutions",
+			"scope": [
+				"entity.name.label.cs",
+				"entity.name.scope-resolution",
+				"entity.name.scope-resolution.function.call",
+				"entity.name.scope-resolution.function.definition"
+			],
+			"settings": {
+				"foreground": "#03C8BB"
+			}
+		},
+		{
+			"name": "C not-defined-yet macros",
+			"scope": [
+				"entity.name.function.preprocessor.c",
+				"entity.name.function.preprocessor.c++",
+				"entity.name.function.preprocessor.objc",
+				"entity.name.function.preprocessor.objcpp"
+			],
+			"settings": {
+				"foreground": "#03C8BB"
+			}
+		},
+
 		
 		{
 			"name": "Base HTML tags",
