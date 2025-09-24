@@ -150,8 +150,8 @@
 		"thisParameter": "#FFF3B5",
 		"parameter": "#9DDDFF",
 		"function": "#D479FF",
-		"enumMember": "#E2BB84",
-		"macro": "#D479FF",
+		"enumMember": "#03C8BB",
+		"macro": "#03C8BB",
 		"namespace": "#03C8BB",
 		"module": "#03C8BB"
 	},
