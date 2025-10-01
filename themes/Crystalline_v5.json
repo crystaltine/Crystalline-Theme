@@ -551,6 +551,25 @@
 		},
 
 		
+		{
+			"name": "Assembly labels",
+			"scope": [
+				"entity.name.label.assembly",
+				"variable.label"
+			],
+			"settings": {
+				"foreground": "#D479FF"
+			}
+		},
+		{
+			"name": "Assembly pseudo-ops",
+			"scope": [
+				"keyword.other.pseudo-op"
+			],
+			"settings": {
+				"foreground": "#03C8BB"
+			}
+		},
 
 
 
