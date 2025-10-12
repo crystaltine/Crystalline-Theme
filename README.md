@@ -1,6 +1,7 @@
 # Crystalline Color Theme for VS Code
-Last Minor Version: `5.0.10` - Oct. 12, 2025
-Last Major Version: `5.0.0` - Sep. 20, 2025
+**Last Minor Version:** `5.0.10` - Oct. 12, 2025
+
+**Last Major Version:** `5.0.0` - Sep. 20, 2025
 
 a color theme. use it.
 
