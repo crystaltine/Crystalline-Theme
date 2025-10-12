@@ -222,7 +222,8 @@
 				"meta.object.member",
 				"meta.property.object",
 				"variable.other.rust",
-				"variable.other.property"
+				"variable.other.property",
+				"variable.other.object.property"
 			],
 			"settings": {
 				"foreground": "#9DDDFF"
@@ -303,6 +304,19 @@
 			],
 			"settings": {
 				"foreground": "#FFF3B5"
+			}
+		},
+
+		{
+			"name": "js/ts builtin types",
+			"scope": [
+				"support.type.builtin.tsx",
+				"support.type.builtin.jsx",
+				"support.type.builtin.ts",
+				"support.type.builtin.js"
+			],
+			"settings": {
+				"foreground": "FFF3B5"
 			}
 		},
 
@@ -608,6 +622,8 @@
 				"foreground": "#FFF6"
 			}
 		},
+
+
 		{
 			"name": "meta.brace.square",
 			"scope": [
