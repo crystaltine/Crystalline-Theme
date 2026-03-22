@@ -2,7 +2,7 @@
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
   "description": "personal vscode color themes",
-  "version": "5.0.11",
+  "version": "5.0.12",
   "publisher": "nonagon",
   "icon": "themes/icon_sm.png",
   "engines": {
