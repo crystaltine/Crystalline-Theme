@@ -413,9 +413,11 @@
 
 		
 		{
-			"name": "Base HTML tags",
+			"name": "Base HTML / JSX / TSX tags",
 			"scope": [
-				"entity.name.tag.html"
+				"entity.name.tag.html",
+				"entity.name.tag.jsx",
+				"entity.name.tag.tsx"
 			],
 			"settings": {
 				"foreground": "#FE3E85"
