@@ -151,9 +151,9 @@
 		"variable": "#E2BB84",
 		"variable.global": "#E2BB84",
 		"variable.readonly": "#E2BB84",
-		"variable.constant": "#22CAB1",
-		"variable.builtin": "#22CAB1",
-		"variable.defaultLibrary": "#22CAB1",
+		"variable.constant": "#1CC4AB",
+		"variable.builtin": "#1CC4AB",
+		"variable.defaultLibrary": "#1CC4AB",
 		"selfParameter": "#FFF3B5",
 		"thisParameter": "#FFF3B5",
 		"selfKeyword": "#FFF3B5",
@@ -162,10 +162,10 @@
 		"thisTypeKeyword": "#FFF3B5",
 		"parameter": "#7DE3F0",
 		"function": "#D479FF",
-		"enumMember": "#22CAB1",
-		"macro": "#22CAB1",
-		"namespace": "#22CAB1",
-		"module": "#22CAB1"
+		"enumMember": "#1CC4AB",
+		"macro": "#1CC4AB",
+		"namespace": "#1CC4AB",
+		"module": "#1CC4AB"
 	},
 	"tokenColors": [
 		{
@@ -386,7 +386,7 @@
 				"entity.name.module.rust"
 			],
 			"settings": {
-				"foreground": "#22CAB1"
+				"foreground": "#1CC4AB"
 			}
 		},
 		
@@ -400,7 +400,7 @@
 				"entity.name.scope-resolution.function.definition"
 			],
 			"settings": {
-				"foreground": "#22CAB1"
+				"foreground": "#1CC4AB"
 			}
 		},
 		{
@@ -412,7 +412,7 @@
 				"entity.name.function.preprocessor.objcpp"
 			],
 			"settings": {
-				"foreground": "#22CAB1"
+				"foreground": "#1CC4AB"
 			}
 		},
 
@@ -581,7 +581,7 @@
 				"variable.parameter.keyframe-list"
 			],
 			"settings": {
-				"foreground": "#22CAB1"
+				"foreground": "#1CC4AB"
 			}
 		},
 		{
@@ -640,7 +640,7 @@
 				"keyword.other.pseudo-op"
 			],
 			"settings": {
-				"foreground": "#22CAB1"
+				"foreground": "#1CC4AB"
 			}
 		},
 
