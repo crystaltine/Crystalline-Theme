@@ -415,7 +415,7 @@
 		{
 			"name": "Base HTML tags",
 			"scope": [
-				"entity.name.tag"
+				"entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#FE3E85"
@@ -443,19 +443,50 @@
 			}
 		},
 		{
-			"name": "JSON Property Names",
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#e2bb84"
-			}
-		},
-		{
 			"name": "JSON constant values",
 			"scope": [
 				"constant.language.json"
 			],
 			"settings": {
 				"foreground": "#FFF3B5"
+			}
+		},
+
+		
+		{
+			"name": "Property Names / Markup/Config Keys",
+			"scope": [
+				"support.type.property-name.json",
+				"variable.key.dotenv",
+				"support.type.property-name.toml",
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#e2bb84"
+			}
+		},
+		{
+			"name": "Property Values / Markup/Config Values",
+			"scope": [
+				"support.type.property-value.json",
+				"support.type.property-value.toml",
+				"variable.value.dotenv",
+				"property.value.dotenv"
+			],
+			"settings": {
+				"foreground": "#E08CB8"
+			}
+		},
+
+
+		{
+			"name": "TOML Table / Array Names",
+			"scope": [
+				"support.type.property-name.table.toml",
+				"support.type.property-name.array.toml"
+			],
+			"settings": {
+				"foreground": "#D479FF"
 			}
 		},
 
@@ -535,6 +566,24 @@
 			],
 			"settings": {
 				"foreground": "#E08CB8"
+			}
+		},
+		{
+			"name": "CSS Keyframe list names",
+			"scope": [
+				"variable.parameter.keyframe-list"
+			],
+			"settings": {
+				"foreground": "#22CAB1"
+			}
+		},
+		{
+			"name": "CSS Keyframe offset percentages",
+			"scope": [
+				"entity.other.keyframe-offset.percentage"
+			],
+			"settings": {
+				"foreground": "#FFF3B5"
 			}
 		},
 		{
@@ -1181,7 +1230,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
 			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
 			"settings": {
-				"foreground": "#7DE3F0"
+				"foreground": "#D479FF"
 			}
 		},
 		{
@@ -1569,6 +1618,29 @@
 			"scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
 			"settings": {
 				"foreground": "#D479FF"
+			}
+		},
+
+		{
+			"name": ".log info",
+			"scope": "log.info",
+			"settings": {
+				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"name": ".log warning",
+			"scope": "log.warning",
+			"settings": {
+				"foreground": "#E2BB84"
+			}
+		},
+		{
+			"name": ".log error",
+			"scope": "log.error",
+			"settings": {
+				"foreground": "#FD3D85",
+				"background": "#7DE3F0"
 			}
 		}
 	]
