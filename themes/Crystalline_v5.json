@@ -207,16 +207,17 @@
 		{
 			"name": "Classes & Types",
 			"scope": [
-				"support.class", 
 				"entity.name.type.class",
+				"entity.name.class",
+				"entity.name.type",
+				"support.class", 
 				"support.type.primitive",
 				"support.type.builtin",
-				"entity.name.class",
 				"variable.other.class.js",
 				"variable.other.class.ts",
 				"variable.other.class.tsx",
 				"variable.other.class.jsx",
-				"entity.name.type"
+				"keyword.other.type"
 			],
 			"settings": {
 				"foreground": "#FFF3B5"
@@ -245,7 +246,13 @@
 				"support.function.general.tex",
 				"support.function.textit.latex",
 				"meta.function.textbf.latex",
-				"meta.function-call"
+				"meta.function-call",
+				"support.function.special",
+				"support.function.magic",
+				"support.function.misc",
+				"support.function.gradient",
+				"support.function.constructor",
+				"support.function.destructor"
 			],
 			"settings": {
 				"foreground": "#D479FF"
@@ -258,7 +265,10 @@
 				"variable.parameter.function-call",
 				"variable.parameter.function.latex",
 				"variable.parameter.function.tex",
-				"variable.other.django.attribute"
+				"variable.other.django.attribute",
+				"meta.function.parameters",
+				"meta.function.parameter",
+				"meta.function.parameter.no-default"
 			],
 			"settings": {
 				"foreground": "#7DE3F0"
@@ -324,7 +334,7 @@
 				"support.type.builtin.js"
 			],
 			"settings": {
-				"foreground": "FFF3B5"
+				"foreground": "#FFF3B5"
 			}
 		},
 
@@ -380,10 +390,11 @@
 
 
 		{
-			"name": "Rust namespaces/modules",
+			"name": "namespaces / modules",
 			"scope": [
-				"entity.name.namespace.rust",
-				"entity.name.module.rust"
+				"support.other.namespace",
+				"entity.name.namespace",
+				"entity.name.module"
 			],
 			"settings": {
 				"foreground": "#1CC4AB"
@@ -418,11 +429,13 @@
 
 		
 		{
-			"name": "Base HTML / JSX / TSX tags",
+			"name": "Base HTML tags / JSX tags / TSX tags",
 			"scope": [
 				"entity.name.tag.html",
 				"entity.name.tag.jsx",
-				"entity.name.tag.tsx"
+				"entity.name.tag.tsx",
+				"entity.name.tag.open",
+				"entity.name.tag.close"
 			],
 			"settings": {
 				"foreground": "#FE3E85"
@@ -1152,7 +1165,12 @@
 		},
 		{
 			"name": "php types",
-			"scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
+			"scope": [
+				"storage.type.php",
+				"meta.other.type.phpdoc.php",
+				"keyword.other.type.php",
+				"keyword.other.array.phpdoc.php"
+			],
 			"settings": {
 				"foreground": "#FFF3B5"
 			}
