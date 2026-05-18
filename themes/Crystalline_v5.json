@@ -11,11 +11,11 @@
 		"button.background": "#85F",
 		"button.hoverBackground": "#96F",
 		"debugToolBar.background": "#181818",
-		"diffEditor.insertedTextBackground": "#00809b33",
 		"dropdown.background": "#181818",
 		"dropdown.border": "#FFF1",
 		"editorStickyScroll.background": "#181818",
 		"editorStickyScrollHover.background": "#1D1D1D",
+		"editorStickyScrollGutter.background": "#181818",
 		"editorStickyScroll.shadow": "#1D1D1D40",
 		"editorStickyScroll.border": "#FFF1",
 
@@ -72,6 +72,14 @@
 		"editorWhitespace.foreground": "#FFF1",
 		"editorWidget.background": "#181818",
 		"editorWidget.border": "#FFF1",
+
+		"diffEditor.insertedTextBackground": "#19E5BF30",
+		"diffEditor.insertedLineBackground": "#19E5BF20",
+		"diffEditor.removedTextBackground": "#FE3D8330",
+		"diffEditor.removedLineBackground": "#FE3D8320",
+		"diffEditor.diagonalFill": "#FFF2",
+		"multiDiffEditor.headerBackground": "#181818",
+		"multiDiffEditor.border": "#FFF1",
 
 		"textCodeBlock.background": "#181818",
 		"textCodeBlock.border": "#FFF1",
@@ -224,14 +232,15 @@
 			}
 		},
 		{
-			"name": "Fields / Properties / Members",
+			"name": "Fields / Properties / Members / Enum Members",
 			"scope": [
 				"meta.object.member",
 				"meta.property.object",
 				"variable.other.rust",
 				"variable.other.property",
 				"variable.other.object.property",
-				"variable.other.django.attribute"
+				"variable.other.django.attribute",
+				"constant.enum"
 			],
 			"settings": {
 				"foreground": "#19E5BF"
@@ -758,69 +767,6 @@
 			],
 			"settings": {
 				"foreground": "#83F7FF"
-			}
-		},
-		{
-			"name": "link",
-			"scope": [
-				"constant.character.xi"
-			],
-			"settings": {
-				"foreground": "#83F7FF"
-			}
-		},
-		{
-			"name": "heading 6, number",
-			"scope": [
-				"invalid.xi"
-			],
-			"settings": {
-				"foreground": "#AAA"
-			}
-		},
-		{
-			"name": "heading 5, enums, preprocessor, constant, decorator",
-			"scope": [
-				"keyword.control.xi"
-			],
-			"settings": {
-				"foreground": "#D479FF"
-			}
-		},
-		{
-			"name": "heading 4, type, class, interface",
-			"scope": [
-				"constant.regexp.xi"
-			],
-			"settings": {
-				"foreground": "#83F7FF"
-			}
-		},
-		{
-			"name": "heading 3, property",
-			"scope": [
-				"constant.character.character-class.regexp.xi"
-			],
-			"settings": {
-				"foreground": "#D479FF"
-			}
-		},
-		{
-			"name": "heading 2, callable",
-			"scope": [
-				"entity.name.class.xi"
-			],
-			"settings": {
-				"foreground": "#D479FF"
-			}
-		},
-		{
-			"name": "heading 1, keyword",
-			"scope": [
-				"entity.name.function.xi"
-			],
-			"settings": {
-				"foreground": "#FFF3B5"
 			}
 		},
 		{
