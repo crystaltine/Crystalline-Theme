@@ -1,8 +1,8 @@
 {
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
-  "description": "personal vscode color themes",
-  "version": "5.0.17",
+  "description": "gray-bg-colorful-fg dark themes",
+  "version": "5.0.18",
   "publisher": "nonagon",
   "icon": "themes/icon_sm.png",
   "engines": {
