@@ -73,8 +73,8 @@
 		"editorWidget.background": "#181818",
 		"editorWidget.border": "#FFF1",
 
-		"diffEditor.insertedTextBackground": "#19E5BF30",
-		"diffEditor.insertedLineBackground": "#19E5BF20",
+		"diffEditor.insertedTextBackground": "#29EBC830",
+		"diffEditor.insertedLineBackground": "#29EBC820",
 		"diffEditor.removedTextBackground": "#FE3D8330",
 		"diffEditor.removedLineBackground": "#FE3D8320",
 		"diffEditor.diagonalFill": "#FFF2",
@@ -159,9 +159,9 @@
 		"variable": "#E2BB84",
 		"variable.global": "#E2BB84",
 		"variable.readonly": "#E2BB84",
-		"variable.constant": "#11BD9E",
-		"variable.builtin": "#11BD9E",
-		"variable.defaultLibrary": "#11BD9E",
+		"variable.constant": "#19CAAA",
+		"variable.builtin": "#19CAAA",
+		"variable.defaultLibrary": "#19CAAA",
 		"selfParameter": "#FFF3B5",
 		"thisParameter": "#FFF3B5",
 		"selfKeyword": "#FFF3B5",
@@ -170,10 +170,10 @@
 		"thisTypeKeyword": "#FFF3B5",
 		"parameter": "#83F7FF",
 		"function": "#D479FF",
-		"enumMember": "#19E5BF",
-		"macro": "#19E5BF",
-		"namespace": "#11BD9E",
-		"module": "#11BD9E"
+		"enumMember": "#29EBC8",
+		"macro": "#29EBC8",
+		"namespace": "#19CAAA",
+		"module": "#19CAAA"
 	},
 	"tokenColors": [
 		{
@@ -243,7 +243,7 @@
 				"constant.enum"
 			],
 			"settings": {
-				"foreground": "#19E5BF"
+				"foreground": "#29EBC8"
 			}
 		},
 		{
@@ -405,7 +405,7 @@
 				"entity.name.module"
 			],
 			"settings": {
-				"foreground": "#11BD9E"
+				"foreground": "#19CAAA"
 			}
 		},
 		
@@ -419,7 +419,7 @@
 				"entity.name.scope-resolution.function.definition"
 			],
 			"settings": {
-				"foreground": "#11BD9E"
+				"foreground": "#19CAAA"
 			}
 		},
 		{
@@ -431,7 +431,7 @@
 				"entity.name.function.preprocessor.objcpp"
 			],
 			"settings": {
-				"foreground": "#11BD9E"
+				"foreground": "#19CAAA"
 			}
 		},
 
@@ -602,7 +602,7 @@
 				"variable.parameter.keyframe-list"
 			],
 			"settings": {
-				"foreground": "#11BD9E"
+				"foreground": "#19CAAA"
 			}
 		},
 		{
@@ -661,7 +661,7 @@
 				"keyword.other.pseudo-op"
 			],
 			"settings": {
-				"foreground": "#11BD9E"
+				"foreground": "#19CAAA"
 			}
 		},
 
