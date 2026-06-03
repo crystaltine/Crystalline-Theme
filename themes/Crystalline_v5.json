@@ -250,9 +250,7 @@
 			"name": "Parameters / Function Args / Function Variables",
 			"scope": [
 				"meta.indexed-name.python",
-				"variable.parameter.function-call",
-				"variable.parameter.function.latex",
-				"variable.parameter.function.tex",
+				"variable.parameter",
 				"meta.function.parameters",
 				"meta.function.parameter",
 				"meta.function.parameter.no-default"
