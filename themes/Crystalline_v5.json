@@ -236,6 +236,8 @@
 			"scope": [
 				"meta.object.member",
 				"meta.property.object",
+				"meta.member.access",
+				"meta.attribute",
 				"variable.other.rust",
 				"variable.other.property",
 				"variable.other.object.property",
@@ -269,7 +271,6 @@
 				"support.function.general.tex",
 				"support.function.textit.latex",
 				"meta.function.textbf.latex",
-				"meta.function-call",
 				"support.function.special",
 				"support.function.magic",
 				"support.function.misc",
