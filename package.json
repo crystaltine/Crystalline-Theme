@@ -47,5 +47,8 @@
         "path": "./themes/Crystalline_v1.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
   }
 }
