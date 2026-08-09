@@ -203,7 +203,6 @@
 		"operator": "#D594FE",
 		"operator.controlFlow": "#FF6A91",
 		"punctuation": "#888",
-		"memberOperatorOverload": "#888",
 		"variable": "#EAB287",
 		"variable.global": "#EAB287",
 		"variable.readonly": "#EAB287",
