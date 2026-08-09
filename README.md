@@ -1,6 +1,6 @@
 # Crystalline Color Theme for VS Code
 
-colors for free
+some themes
 
 ## Previews (v6.0.0)
 ![Crystalline Theme v6 Preview 1](./previews/preview_v6_1.png)

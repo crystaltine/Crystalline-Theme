@@ -1,8 +1,8 @@
 {
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
-  "description": "Smooth colorful dark themes",
-  "version": "5.0.22",
+  "description": "some themes",
+  "version": "6.0.0",
   "publisher": "nonagon",
   "icon": "themes/icon_sm.png",
   "engines": {
@@ -17,34 +17,34 @@
   "contributes": {
     "themes": [
       {
-        "label": "(v6) Crystalline v6",
+        "label": "Crystalline v6",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline_v6.json"
       },
       {
-        "label": "(v5) Crystalline v5",
+        "label": "Crystalline v5",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline_v5.json"
       },
       {
-        "label": "(v4) Crystalline v4",
+        "label": "Crystalline v4",
         "uiTheme": "vs-dark",
         "path": "./themes/Crystalline_v4.json"
       },
       {
-        "label": "(v3-old) Crystalline Dark Desaturated",
+        "label": "Crystalline v3",
         "uiTheme": "vs-dark",
-        "path": "./themes/Crystalline Desaturated-color-theme.json"
+        "path": "./themes/Crystalline_v3.json"
       },
       {
-        "label": "(v2-old) Crystalline Dark High Contrast",
+        "label": "Crystalline v2",
         "uiTheme": "vs-dark",
-        "path": "./themes/Crystalline Theme-color-theme.json"
+        "path": "./themes/Crystalline_v2.json"
       },
       {
-        "label": "(v1-old) Crystalline Dark Dimmed",
+        "label": "Crystalline v1",
         "uiTheme": "vs-dark",
-        "path": "./themes/Crystalline Dimmed-color-theme.json"
+        "path": "./themes/Crystalline_v1.json"
       }
     ]
   }
