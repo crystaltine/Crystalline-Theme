@@ -2,10 +2,16 @@
 
 colors for free
 
+## Previews (v6.0.0)
+![Crystalline Theme v6 Preview 1](./previews/preview_v6_1.png)
+![Crystalline Theme v6 Preview 2](./previews/preview_v6_2.png)
+![Crystalline Theme v6 Preview 3](./previews/preview_v6_3.png)
+![Crystalline Theme v6 Preview 4](./previews/preview_v6_4.png)
+
 ## Previews (v5.0.0)
-![Crystalline Theme v5 Preview 1](./preview_v5_1.jpg)
-![Crystalline Theme v5 Preview 2](./preview_v5_2.jpg)
-![Crystalline Theme v5 Preview 3](./preview_v5_3.jpg)
+![Crystalline Theme v5 Preview 1](./previews/preview_v5_1.jpg)
+![Crystalline Theme v5 Preview 2](./previews/preview_v5_2.jpg)
+![Crystalline Theme v5 Preview 3](./previews/preview_v5_3.jpg)
 
 ## Preview (v4)
-![Crystalline Theme v4 Preview](./preview_v4.jpg)
+![Crystalline Theme v4 Preview](./previews/preview_v4.jpg)
