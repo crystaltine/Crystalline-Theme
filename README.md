@@ -3,7 +3,11 @@
 some themes
 
 ## Previews (v6)
-(6.0.2)
+6.1.0
+![Crystalline Theme v6.1 Preview 1](./previews/preview_v6_1_1.png)
+![Crystalline Theme v6.1 Preview 2](./previews/preview_v6_1_2.png)
+
+(6.0.2 slightly outdated)
 ![Crystalline Theme v6 Preview 5](./previews/preview_v6_5.png)
 
 (6.0.0 slightly outdated)

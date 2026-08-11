@@ -2,7 +2,7 @@
   "name": "crystalline-theme",
   "displayName": "Crystalline Theme",
   "description": "some themes",
-  "version": "6.0.7",
+  "version": "6.1.0",
   "publisher": "nonagon",
   "icon": "./icon_sm.png",
   "engines": {
